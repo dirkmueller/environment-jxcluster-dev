@@ -1,0 +1,15 @@
+adminUser:
+  password: local:jxcluster/adminUser:password
+  username: admin
+docker:
+  email: anonymous
+  password: local:jxcluster/docker:password
+  url: https://index.docker.io/v1/
+  username: anonymous
+enableDocker: true
+pipelineUser:
+  email: dmueller@suse.com
+  token: local:jxcluster/pipelineUser:token
+  username: dirkmueller
+prow:
+  hmacToken: local:jxcluster/prow:hmacToken
